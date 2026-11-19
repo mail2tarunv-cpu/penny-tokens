@@ -10,7 +10,7 @@
     "page": { "$type": "color", "$value": "#FFFFFF" }
   },
   "radius": {
-    "button": { "$type": "number", "$value": 2 }
+    "button": { "$type": "number", "$value": 12 }
   },
   "spacing": {
     "component": { "$type": "number", "$value": 12 }
