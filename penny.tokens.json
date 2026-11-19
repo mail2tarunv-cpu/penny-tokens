@@ -13,6 +13,6 @@
     "button": { "$type": "number", "$value": 12 }
   },
   "spacing": {
-    "component": { "$type": "number", "$value": 12 }
+    "component": { "$type": "number", "$value": 16 }
   }
 }
