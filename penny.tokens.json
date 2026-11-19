@@ -1,18 +1,60 @@
 {
+  "color": {
+    "$type": "color",
+    "green": {
+      "600": {
+        "$value": "#008254"
+      },
+      "700": {
+        "$value": "#006B45"
+      }
+    },
+    "neutral": {
+      "0": {
+        "$value": "#FFFFFF"
+      },
+      "50": {
+        "$value": "#FAFAFA"
+      },
+      "900": {
+        "$value": "#18181B"
+      },
+      "950": {
+        "$value": "#0B0B0C"
+      }
+    }
+  },
   "action": {
-    "primary": { "$type": "color", "$value": "#008254" }
+    "$type": "color",
+    "primary": {
+      "$value": "{color.green.600}"
+    }
   },
   "text": {
-    "on-brand": { "$type": "color", "$value": "#FFFFFF" },
-    "primary": { "$type": "color", "$value": "#202020" }
+    "$type": "color",
+    "primary": {
+      "$value": "{color.neutral.900}"
+    },
+    "on-brand": {
+      "$value": "{color.neutral.0}"
+    }
   },
   "background": {
-    "page": { "$type": "color", "$value": "#FFFFFF" }
+    "$type": "color",
+    "page": {
+      "$value": "{color.neutral.0}"
+    }
   },
   "radius": {
-    "button": { "$type": "number", "$value": 12 }
+    "$type": "number",
+    "button": {
+      "$value": 12
+    }
   },
   "spacing": {
-    "component": { "$type": "number", "$value": 16 }
+    "$type": "number",
+    "component": {
+      "$value": 16
+    }
   }
 }
