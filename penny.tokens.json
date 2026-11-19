@@ -1,0 +1,18 @@
+{
+  "action": {
+    "primary": { "$type": "color", "$value": "#008254" }
+  },
+  "text": {
+    "on-brand": { "$type": "color", "$value": "#FFFFFF" },
+    "primary": { "$type": "color", "$value": "#202020" }
+  },
+  "background": {
+    "page": { "$type": "color", "$value": "#FFFFFF" }
+  },
+  "radius": {
+    "button": { "$type": "number", "$value": 2 }
+  },
+  "spacing": {
+    "component": { "$type": "number", "$value": 12 }
+  }
+}
