@@ -80,12 +80,37 @@
     "$type": "number",
     "button": {
       "$value": 12
+    },
+    "card": {
+      "$value": 16
+    },
+    "input": {
+      "$value": 8
     }
   },
   "spacing": {
     "$type": "number",
     "component": {
       "$value": 16
+    },
+    "section": {
+      "$value": 32
+    }
+  },
+  "font": {
+    "$type": "number",
+    "size": {
+      "body": {
+        "$value": 16
+      },
+      "heading": {
+        "$value": 28
+      }
+    },
+    "line-height": {
+      "body": {
+        "$value": 24
+      }
     }
   }
 }
