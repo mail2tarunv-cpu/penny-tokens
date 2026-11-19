@@ -22,12 +22,25 @@
       "950": {
         "$value": "#0B0B0C"
       }
+    },
+    "blue": {
+      "400": {
+        "$value": "#5B8DEF"
+      },
+      "600": {
+        "$value": "#1F5FD0"
+      }
     }
   },
   "action": {
     "$type": "color",
     "primary": {
-      "$value": "{color.green.600}"
+      "$value": "{color.blue.600}",
+      "$extensions": {
+        "modes": {
+          "Dark": "{color.blue.400}"
+        }
+      }
     }
   },
   "text": {
