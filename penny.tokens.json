@@ -33,7 +33,12 @@
   "text": {
     "$type": "color",
     "primary": {
-      "$value": "{color.neutral.900}"
+      "$value": "{color.neutral.900}",
+      "$extensions": {
+        "modes": {
+          "Dark": "{color.neutral.0}"
+        }
+      }
     },
     "on-brand": {
       "$value": "{color.neutral.0}"
@@ -42,7 +47,20 @@
   "background": {
     "$type": "color",
     "page": {
-      "$value": "{color.neutral.0}"
+      "$value": "{color.neutral.0}",
+      "$extensions": {
+        "modes": {
+          "Dark": "{color.neutral.950}"
+        }
+      }
+    },
+    "surface": {
+      "$value": "{color.neutral.50}",
+      "$extensions": {
+        "modes": {
+          "Dark": "{color.neutral.900}"
+        }
+      }
     }
   },
   "radius": {
